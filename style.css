@@ -1,0 +1,888 @@
+body {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  float: left;
+}
+
+a{
+    font-family: "Rubik",sans-serif; 
+    text-decoration: none;
+    color: #3E3E3E;
+}
+
+/********** Header *********/
+.header {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: #F6F6F6;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+}
+
+.header-content{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px;
+    height: auto;
+    padding-top: 30px;
+    border-bottom: thin;
+}
+.logo{
+    float: left;
+    width: 16.666666%;
+    height: auto;
+   
+}
+
+.center{
+    width:64.667% ;
+    float: left;
+    padding: 0;
+}
+.TopMenu{
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+.TopItem{
+    width: 19.667%;
+    float: left;
+    text-align: center;
+
+    text-transform: uppercase;
+    line-height: 13px;
+    display: inline-block;
+}
+
+.TopItem a{
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.TopRight{
+    float: right;
+    width: 18.667%;
+}
+
+.right-menu{
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu{
+    display: none;
+    background-color:  #3E3E3E;
+    margin-top: 5px;
+}
+
+.submenu li{
+    display: block;
+    text-align: left;
+    padding: 10px 0px;
+}
+.submenu li a{
+     font-family: "Rubik",sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.rightItem{
+    float: left;
+    width: 20.333%;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+/********** End Header *********/
+
+
+/********* Content ***********/
+.main-content{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px;
+}
+
+.upper-content{
+    float: left;
+    width: 100%;
+    border-bottom: #F6F6F6;
+    border-bottom-style: solid;
+
+}
+
+.breadcrumbs{
+    float: left;
+    width: 100%;
+}
+
+.breadcrumbs-itmes{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.breadcrumbs-itmes li{
+    float: left;
+    width: auto;
+    display: inline-block;
+    padding-right: 10px;
+    color: #003da5;
+    font-size: 12px;
+    line-height: 1.75;
+    letter-spacing: -0.3px;
+    
+}
+.breadcrumbs-itmes li i{color: black;}
+
+.left-content{
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.left-content img{
+    float: left;
+    width: 90%;
+    padding: 20px 0;
+}
+
+.right-content{
+    float: right;
+    width: 49%;
+    margin: 0;
+}
+
+.right-content .label{
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.right-content .label span{
+    float: left;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    line-height: -moz-block-height;
+    line-height: 40px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #003EA5;
+    color: #fff;
+}
+
+.product-name{
+    float: left;
+    width: 100%;
+    
+}
+
+.product-name span{
+    float: left;
+    width: 100%;
+    font-size: 64px;
+    letter-spacing: -1.5px;
+    font-weight: 700;
+    line-height: .91;
+    font-family: "Rubik",sans-serif;
+    margin-bottom: 15px;
+}
+
+.discription{
+    float: left;
+    width: 100%;
+}
+
+.discription span{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.31;
+    letter-spacing: 0.6px;
+    float: left;
+    width: 83%;
+    font-family: "Rubik",sans-serif;
+}
+
+
+.color{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.color span{
+    float: left;
+    width: 100%;
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.color ul{
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin-top: 5px;
+}
+
+
+.color ul li{
+    float: left;
+    display: inline-block;
+    width: 25%;
+    font-size: 50px;
+
+}
+
+.size span{
+    float: left;
+    width: 100%;
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.size{
+    float: left;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.size ul{
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-top: 5px;
+}
+
+
+.size ul li{
+    float: left;
+    display: inline-block;
+    width: 8%;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    border: solid;
+    padding: 13px 0;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.size .fit{
+    float: left;
+    width: 100%;
+}
+.size .fit span{
+    float: left;
+    width: 100%;
+}
+.size .fit a{
+    float: left;
+    width: 100%;
+    text-decoration: underline;
+    font-size: 15px;
+    width: auto;
+}
+
+.size .fit img{
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.size .fit p{
+    padding: 0;
+    float: left;
+    width: auto;
+    margin: 0;
+    line-height: 25px;
+}
+.cart {
+    float: left;
+    width: 100%;
+}
+.quantity{
+    float: left;
+    width: 40%;
+}
+
+.quantity .value{
+    float: left;
+    width: 50%;
+}
+.quantity ul{
+    float: left;
+    width: 70%;
+    border: solid;
+    border-radius: 9px;
+    padding-left: 0;
+    text-align: center;
+    border-width: 2px;
+}
+
+.quantity ul li {
+    float: left;
+    width: 33.3333%;
+    display: inline-block;    
+}
+
+.quantity ul li button{
+    background-color: white;
+    border: none;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: "Rubik Mono One",sans-serif;
+    cursor: pointer;
+}
+
+.quantity ul li input{
+    width: 100%;
+    text-align: center;
+    top: 8px;
+    position: relative;
+    border: none;
+    font-size: 30px;
+    font-family: "Rubik Mono One",sans-serif;
+    font-weight: 1000;
+}
+
+.price{
+    float: left;
+    width: 50%;
+}
+.price p{
+    margin-top: 0;
+}
+.price span{
+    font-size: 36px;
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.add-to-cart{
+    float: left;
+    width: 100%;
+}
+.add-to-cart button{
+    float: left;
+    width: 45%;
+    background-color: #F67A24;
+    border: solid;
+    border-width: 2px;
+    border-radius: 9px;
+    border-color: #F67A24;
+    font-family: "Rubik Mono One",sans-serif;
+    font-size: 14px;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+.add-to-cart button i{
+    padding-right: 15px;
+}
+
+.arrival{
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.arrival i{
+    
+}
+
+.arrival span{
+    padding: 0 10px;
+    font-weight: 400;
+    letter-spacing: -0.4px;
+    font-family: "Rubik",sans-serif;
+    font-size: 18px;
+}
+
+.arrival span p{
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+.border{
+    float: left;
+    width: 100%;
+    border-bottom: solid;
+    border-radius: 6px;
+    border-right: solid;
+    border-color: #F6F6F6;
+}
+
+.spices{
+    float: left;
+    width: 100%;
+    border-bottom: solid;
+    font-family: "Rubik",sans-serif;
+    color: #4D4D4D;
+    margin-top: 5%;
+    text-align: center;
+    border-right: solid;
+    border-color: #F6F6F6;
+}
+
+.spices span{
+    margin: 0;
+}
+.spices span h1{
+    padding: 0;
+    margin: 0;
+}
+.spices span p{
+    margin: 0;
+}
+
+.shape h3{
+    margin-bottom: 0;
+}
+
+.pics{
+    float: left;
+    width: 100%;
+    font-family: "Rubik",sans-serif;
+    margin: 5% 0px;
+}
+
+.pics ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.pics ul li{
+    display: inline-block;
+    float: left;
+    width: 32%;
+    border-right: solid;
+    border-color: #F6F6F6;
+    border-bottom: solid;
+    border-bottom-color: #f6f6f6;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.pics ul li:nth-child(2){
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.pics ul li img{
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.pics ul li p{
+    padding: 0 51px; 
+    font-size: 14px;
+}
+
+.design{float: left;width: 100%;
+    border-right: solid;
+    border-color: #F6F6F6;
+    border-bottom: solid;
+    border-bottom-color: #f6f6f6;
+    border-radius: 6px;
+    margin-bottom: 5%;}
+
+.offers{
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.offers ul{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.offers ul li:hover{
+    border: 2px solid #003EA0;
+}
+
+.offers ul li{
+    float: left;
+    width: 31%;
+    min-height: 345px;
+    border-bottom: solid;
+    border-bottom-color: #f6f6f6;
+    border-radius: 6px;
+    border-right: solid;
+    border-color: #F6F6F6;
+    display: inline-block;
+    text-align: center;
+}
+
+.offers ul li:nth-child(2){
+    margin-right: 34px;
+    margin-left: 34px;
+}
+
+.offers ul li .info{
+    float: left;
+    width: 100%;
+}
+.offers ul li p{
+    font-size: 36px;
+    font-family: "Rubik",sans-serif;
+    color: #3E3E3E;
+}
+.offers ul li h3{
+    font-weight: 300;
+    font-family: "Rubik",sans-serif;
+    font-size: 18px;
+    padding: 0 22%;
+}
+.offers ul li button{
+    min-width: 160px;
+    display: inline-block;
+    font-family: "Rubik Mono One",sans-serif;
+    color: #003da5;
+    background: #fff;
+    border: 2px solid #003da5;
+    border-radius: 9px;
+    line-height: 55px;
+    font-size: 12px;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.offers ul li span{
+    float: left;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.offers ul li .label p{
+    float: left;
+    width: auto;
+    padding: 0 10px;
+    margin-left: 20px;
+    background: #003EA0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: .4px;
+    border-radius: 9px;
+}
+.offers ul li img{width: 50%;}
+
+.offers ul li .type{
+    float: left;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "Rubik Mono One",sans-serif;
+    color: #242424;
+    display: block;
+    padding: 10px;
+    text-align: left;
+}
+
+.offers ul li .price{
+    float: left;
+    width: 40%;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Rubik Mono One",sans-serif;
+    color: #242424;
+    display: block;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.offers ul li .price span{
+    font-size: 12px;
+    text-decoration: line-through;
+    padding: 0;
+    float: right;
+    width: 40%;
+    position: relative;
+    top: 9px;
+    line-height: 0;
+}
+
+.offers ul li .offers-cart{
+    width: auto;
+    text-transform: uppercase;
+    font-size: 10px;
+    word-spacing: 5px;
+    color: #003EA0;
+    font-family: "Rubik Mono One",sans-serif;
+    font-weight: 900;
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-bottom: 0;
+    margin-right: 10px;
+    display: none;
+}
+
+.offers ul li:hover .offers-cart{
+    display: block;
+}
+
+.offers ul li .offers-cart i{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+/********** End Content *********/
+
+/********** Footer *********/
+
+.main-footer{
+    float: left;
+    width: 100%;
+    text-align: left;
+    background: #222220;
+}
+
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1140px;
+    padding-top: 35px;
+    color: #82827F;
+}
+
+.footer ul{
+    float:left ;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 9px;
+}
+
+.footer ul li{
+    float: left;
+    width: 25%;
+    display: inline-block;
+}
+
+.newsteller {border-radius: 9px;}
+
+.footer ul li input{
+    width: 95%;
+    float: left;
+    padding: 8px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1.31;
+    font-family: "Rubik",sans-serif;
+    color: #003da5;
+}
+
+.footer ul li button{
+    float: left;
+    width: 100% ;
+    background: #222220;
+    color: #fff;
+    font-family: "Rubik Mono One",sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 14px;
+    border-end-end-radius: 9px;
+    border-start-end-radius: 9px;
+    border-style: groove;
+    border-width: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-left: 0px;
+    line-height: 16px;
+
+}
+
+
+.footer-body {
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+    color: #C9C9C7;
+}
+
+.footer-body .colm{
+    float: left;
+    width: 25%;
+}
+
+.footer-body .colm{
+    font-size: 18px;
+    font-family: "Rubik Mono One",sans-serif;
+}
+
+.footer-body a{
+    text-decoration: none;
+    color:#C9C9C7 ;
+}
+
+.footer-body .colm ul{
+    float: left;
+    width: 100% ;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    min-height: 130px;
+}
+
+.footer-body .colm ul li{
+    float: left;
+    width: 100% ;
+    font-size: 14px;
+    padding: 3px 0;
+}
+
+.footer-body .colm ul li p{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.footer-body .colm .social{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer-body .colm .social li{
+    float: left;
+    width: 23%;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.footer-body .colm .social li:hover{
+    background-color: #FFFFFF;
+    
+}
+
+.footer-body .colm .social li:hover i{
+    color: #222220;
+}
+
+.footer-body .colm .social li a{
+    width: 100%;
+    float: left;
+    color: white;
+}
+
+.footer-body .colm .social li i{
+    font-size: 26px;
+    line-height: 48px;
+}
+
+.second-colm{
+
+}
+
+.last-footer {
+    float: left;
+    width: 100%;
+    margin: 3% 0;
+    font-size: 12px;
+}
+.last-footer span{
+    float: left;
+    width: 25%;
+}
+
+.last-footer span a{
+    text-decoration: underline;
+    font-family: "Rubik Mono One",sans-serif;
+    color: #C9C9C7;
+}
+
+.rights{float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "Rubik",sans-serif;
+    color: #222220;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+/********** End Footer *********/
+/*
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+*/
+
+
+
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.navi-dots{
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.active {
+  background-color: #717171;
+}
+

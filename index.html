@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="Yas-m.com" />
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+	<script type="text/javascript" src="jQuery-library.js"></script>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    
+
+	<title>Rubiks</title>
+
+</head>
+
+
+<body>
+
+<!--********Header********-->
+    <div class="header" >
+        <div class="header-content">
+            <div class="logo"><a href="#"><img src="images/logo.png" /></a></div>
+                <div class="center">
+                    <ul class="TopMenu">
+                        <li class="TopItem" id="TopItem1"><a href="#"> SHOP</a>
+                        	<ul class="submenu" id="submenu1">
+                        		<li><a href="#">link1</a></li>
+                        		<li><a href="#">link2</a></li>
+                        		<li><a href="#">link3</a></li>
+                        		<li><a href="#">link4</a></li>
+                        	</ul>
+                        </li>
+                        <li class="TopItem"id="TopItem2"><a href="#">SOLVE IT</a>
+                        	<ul class="submenu" id="submenu2">
+                        		<li><a href="#">link1</a></li>
+                        		<li><a href="#">link2</a></li>
+                        		<li><a href="#">link3</a></li>
+                        		<li><a href="#">link4</a></li>
+                        	</ul>
+                        </li>
+                        <li class="TopItem"id="TopItem3"><a href="#">ABOUT</a>
+                        	<ul class="submenu" id="submenu3">
+                        		<li><a href="#">link1</a></li>
+                        		<li><a href="#">link2</a></li>
+                        		<li><a href="#">link3</a></li>
+                        		<li><a href="#">link4</a></li>
+                        	</ul>
+                        </li>
+                        <li class="TopItem" id="TopItem4"><a href="#">SPEEDCUBING</a>
+                        	<ul class="submenu" id="submenu4">
+                        		<li><a href="#">link1</a></li>
+                        		<li><a href="#">link2</a></li>
+                        		<li><a href="#">link3</a></li>
+                        		<li><a href="#">link4</a></li>
+                        	</ul>
+                        </li>
+                        <li class="TopItem" id="TopItem5"><a href="#">BLOG</a>
+                        	<ul class="submenu" id="submenu5">
+                        		<li><a href="#">link1</a></li>
+                        		<li><a href="#">link2</a></li>
+                        		<li><a href="#">link3</a></li>
+                        		<li><a href="#">link4</a></li>
+                        	</ul>
+                        </li>
+                     </ul>
+                </div>
+            <div class="TopRight">
+            <ul class="right-menu">
+                <li class="rightItem"><a href="#"><img src="images/search.png" /></a></li>
+                <li class="rightItem"><a href="#"><img src="images/user.png" /></a></li>
+                <li class="rightItem"><a href="#"><img src="images/bag.png" /></a></li>
+            </ul>    
+            </div>
+        </div>
+    </div>
+
+<!--********End Header********-->
+
+
+
+<!--********Content********-->
+
+    <div class="main-content">
+     <div class="upper-content">
+        <div class="breadcrumbs">
+            <ul class="breadcrumbs-itmes">
+                <li>Home &nbsp;&nbsp   <i class="fas fa-angle-right"></i></li>
+                <li>Cubes  &nbsp;&nbsp <i class="fas fa-angle-right"></i></li>
+                <li>Rubik`s Speed Cube</li>
+            </ul>    
+        </div>
+        <div class="border">
+        <div class="right-content">
+            <div class="label"><span>Collector</span></div>
+            
+            <div class="product-name"><span>Rubik`s Colour Vintage</span></div>
+            <div class="discription"><span>Being savage`s bowsman,that is, the person who pulled the bow-oar in his boat(the second one from forward), 
+            it was my cheerful duty to attend upon him while taking that hard-scrabble scramble upon the dead whale`s back. </span></div>
+            <div class="color">
+                <span>Colour</span>
+                <span>
+                    <ul>
+                        <li style="color: #FEFF00;"><i class="fas fa-circle"></i></li>
+                        <li style="color: #D9014C;"><i class="fas fa-circle"></i></li>
+                        <li style="color: #003EA5;"><i class="far fa-check-circle"></i></li>
+                        <li  style="color: #969696;"><i class="fas fa-circle"></i></li>
+                    </ul>
+                </span>
+            </div>
+            
+            <div class="size">
+                <span>Size</span>
+                <span>
+                    <ul>
+                        <li>XS</li>
+                        <li>s</li>
+                        <li>m</li>
+                        <li>l</li>
+                        <li>xl</li>
+                    </ul>
+                </span>
+                <div class="fit"><span><img src="images/shirt.png" /> <p> Slim Fit</p></span>
+                <a href="#">See your size guide</a>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="quantity">
+                    <span class="value">Quantity</span>
+                    <span>
+                        <ul>
+                            <li><button id="plus" onclick="plus()">+</button></li>
+                            <li><input type="text" name="qty" id="qty" value="1"></li>
+                            <li><button id="minus" onclick="minus()" >-</button></li>
+                        </ul>
+                    </span>
+                </div>
+                <div class="price"><p>Total price</p><span>&#163;33.98</span></div>
+                <div class="add-to-cart">
+                    <button><span><i class="fas fa-shopping-cart"></i>ADD TO CART</span></button>
+                    <div class="arrival"><i class="fas fa-suitcase"></i><span> When my order will arrive?</span>
+                        <span><p><a href="#"> See your shipping costs and delivery time</a></p></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="left-content">
+
+        	<div class="slideshow-container">
+
+				<div class="mySlides fade" >
+				  <img src="images/tshirt.png"style="height: 512px;">
+				</div>
+
+				<div class="mySlides fade" >
+				  <img src="images/tshirt2.jpeg"style="height: 512px;">
+				</div>
+
+				<div class="mySlides fade" >
+				  <img src="images/tshirt3.jpg"style="height: 512px;">
+				</div>
+			</div>
+
+			<br>
+
+			<div class="navi-dots">
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+			</div>
+
+        	<!---********************************
+        	<div id="slideshow">
+			   <div>
+			     <img src="images/tshirt.png">
+			   </div>
+			   <div>
+			     <img src="images/tshirt.png">
+			   </div>
+			   <div>
+			     <img src="images/tshirt.png">
+			   </div>
+			</div>
+			--------------------------------->
+
+        </div>
+
+
+        </div>
+    
+        <div class="spices">
+            <span><h1> Rubik`s Colour Vintage</h1>
+                <p>A timeless classic. the world favourite garment in its purest shape.</p>
+                <p>An essential basic for every day.High quality fashioning with double-stitched seems.</p>
+            </span>
+            <span class="shape"><h3>Fit</h3>
+                <h3>Straight cut</h3>
+            </span>
+            <span class="material"><h3>material</h3>
+                <h3>100% cotton (except for heather grey:85%, 15% rayon)</h3>
+            </span>
+        </div>
+
+        <div class="pics">
+            <ul>
+                <li><img src="images/pic1.png"/><span>Smooth quality<br /><p>Called shal. Had two divide Great doesn`t. evening form Begining also saying, to that it self let sprint in.</p></span></li>
+                <li><img src="images/pic2.png"/><span>Extra Long Back<br /><p>Called shal. Had two divide Great doesn`t. evening form Begining also saying, to that it self let sprint in.</p></span></li>
+                <li><img src="images/pic3.png"/><span>Premium Details <br /><p>Called shal. Had two divide Great doesn`t. evening form Begining also saying, to that it self let sprint in.</p></span></li>
+            </ul>
+        </div>
+        <div class="design"><img src="images/design.png" /></div>
+        
+        <div class="offers">
+            <ul>
+                <li>
+                    <div class="info"><p>Like this?</p><h3>These are some other items that you might be intersted in.</h3></div>
+                    <button char="shop">SHOP MORE</button>
+                </li>
+                <li>
+                    <span class="label"><p> Sale</p></span><img src="images/offer1.png" /><span class="type">Rubik`s 5x5</span>
+                    <span class="price">&#163;16.99 <span>&#163;29.99</span></span>
+                    <a href="#"><span class="offers-cart">add to cart<i class="fas fa-shopping-cart"></i></span></a>
+                </li>
+                <li>
+                    <span class="label"><p>Limited edition</p></span><img src="images/offer2.png" /><span class="type">Rubik`s 5x5</span><span class="price">&#163;16.99</span>
+                    <a href="#"><span class="offers-cart">add to cart<i class="fas fa-shopping-cart"></i></span></a>
+                </li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+ </div>
+
+<!--********End Content********-->
+
+<!--********Footer********-->
+<div class="main-footer">
+    <div class="footer">
+        <div class="newsteller">
+            <ul>
+                <li><input class="firstName" type="text" placeholder="First Name" /></li>
+                <li><input class="lastName" type="text" placeholder="Last Name"/></li>
+                <li><input class="email" type="text" placeholder="Email"/></li>
+                <li><button class="subscrib" onclick="validate()">subscribe</button></li>    
+            </ul>
+        </div>
+        
+        <div class="footer-body">
+            <div class="colm"><span>Online shoping</span>
+                <ul>
+                    <li><a href="#"> FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Payment</a></li>
+                </ul>
+                <div class="second-colm"><span>Promotional</span>
+                    <ul>
+                        <li><a href="#"> FAQ</a></li>
+                        <li><a href="#">Usage rights</a></li>
+                        <li><a href="#">Cubes for business</a></li>
+                        <li><a href="#">Cubing competitions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="colm"><span>Products information</span>
+                <ul>
+                    <li><a href="#">Customisation</a></li>
+                    <li><a href="#">tutotials</a></li>
+                    <li><a href="#">Guids</a></li>
+                </ul>
+                <div class="second-colm"><span>Downloads</span>
+                    <ul>
+                        <li><a href="#">Istructions</a></li>
+                        <li><a href="#">Tamplates</a></li>
+                        <li><a href="#">Apps</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="colm"><span>Contact us</span>
+                <ul>
+                    <li><p>Online shop<br />customer@rubikscube.com</p></li>
+                    <li><p>Usage rights<br />press@rubikscube.com</p></li>
+                    <li><p>General inquiry<br />customer@rubikscube.com</p></li>
+                    <li><p>Write us<br />Rubiks Brand Ltd.,<br />7 Lambton palace,<br />London, England w112SH</p></li>
+                </ul>
+            </div>
+            <div class="colm"><span>Follow us</span>
+                <ul class="social">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                </ul>
+
+                
+
+            </div>
+            <div class="last-footer">
+                <span>By browsing this site you agree to our<br /> <a href="#">cookie policy</a></span>
+                <span><a href="#">Terms & Condistions</a></span>
+                <span><a href="#">Privacy Policy</a></span>
+                <span>Design and development by<br /><a href="#">Best Response Media</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="rights"><span><p>&copy;2018, Rubik`s Brand Ltd.All Rights Reserved.</p></span></div>
+
+
+
+
+
+
+<!--********End Footer********-->
+<script type="text/javascript">
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";  
+	  }
+	  slideIndex++;
+	  if (slideIndex > slides.length) {slideIndex = 1}    
+	  for (i = 0; i < dots.length; i++) {
+	    dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";  
+	  dots[slideIndex-1].className += " active";
+	  setTimeout(showSlides, 2000); // Change image every 2 seconds
+	};
+
+
+	function plus(){
+		var add = $("#qty").val();
+		add++;
+		$("#qty").val(add);
+	}
+
+	function minus(){
+		var sub = $("#qty").val();
+		if(sub>1){
+			sub--;
+			$("#qty").val(sub);
+		}
+	};
+
+	function validate(){
+		var fname = $(".firstName").val();
+		var lname = $(".lastNames").val();
+		var email = $(".email").val();
+		if(fname !=""&& lname !=""&& email!=""){
+			return true;
+		}
+		alert("first name, last name, and Email CAN`T be empty!");
+		return false;
+	};
+
+	
+	$("#TopItem1").hover(function(){  
+        $("#submenu1").slideToggle(500);
+    });
+	$("#TopItem2").hover(function(){  
+        $("#submenu2").slideToggle(500);
+    });
+	$("#TopItem3").hover(function(){  
+        $("#submenu3").slideToggle(500);
+    });
+	$("#TopItem4").hover(function(){  
+        $("#submenu4").slideToggle(500);
+    });
+	$("#TopItem5").hover(function(){  
+        $("#submenu5").slideToggle(500);
+    });
+    
+
+
+
+</script>
+
+</body>
+</html>
